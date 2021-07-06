@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Navbar, NavbarBrand } from "reactstrap";
+import Menu from "./Components/MenuComponent"
 import "./App.css";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
           <NavbarBrand href="/">Ristorante con Fusion</NavbarBrand>
         </div>
       </Navbar>
+      <Menu/>
     </div>
   );
 }
