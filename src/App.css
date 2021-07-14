@@ -35,3 +35,17 @@ address{
 .col-12{
     margin: 20px 0;
 }
+
+.home-card-img{
+    height: 500px;
+}
+
+.breadcrumb{
+    background-color: #ddd;
+    padding: 5px;
+}
+
+.breadcrumb-link{
+    text-decoration: none;
+    margin: auto;
+}
