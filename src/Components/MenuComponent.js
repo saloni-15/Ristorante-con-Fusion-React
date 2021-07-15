@@ -13,7 +13,11 @@ function RenderMenuItem({ dish, onClick }) {
   return (
     <Card>
       <Link to={`/menu/${dish.id}`}>
-        <CardImg width="100%" src={dish.image} alt={dish.name} />
+        <CardImg
+          style={{ width: "100%", height: "400px" }}
+          src={dish.image}
+          alt={dish.name}
+        />
         <CardImgOverlay>
           <CardTitle>
             <strong>{dish.name}</strong>

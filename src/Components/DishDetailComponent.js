@@ -14,7 +14,12 @@ function RenderDish({ dish }) {
   if (dish != null) {
     return (
       <Card className="col-12 col-md-5 m-1">
-        <CardImg top src={dish.image} width="500px" alt={dish.name} />
+        <CardImg
+          top
+          src={dish.image}
+          style={{ width: "100%", height: "400px" }}
+          alt={dish.name}
+        />
         <CardBody>
           <CardTitle>
             <strong>{dish.name}</strong>

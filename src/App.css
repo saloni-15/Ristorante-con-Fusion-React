@@ -49,3 +49,28 @@ address{
     text-decoration: none;
     margin: auto;
 }
+
+.blockquote-footer{
+    margin-top: 5px;
+}
+
+.media-list{
+    list-style: none;
+}
+
+.media{
+    display: flex;
+}
+
+.media-left{
+    display: inline;
+}
+
+.media-body{
+    align-self: flex-end;
+    margin-left: 5%;
+}
+
+.media-heading{
+    margin: 0px;
+}
