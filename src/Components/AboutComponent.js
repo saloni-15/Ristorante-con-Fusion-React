@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 function RenderLeader(leader) {
   if (leader != null) {
     return (
-      <Media tag="li">
+      <Media>
         <Media left>
-          <Media
+            <Media
             object
-            src="assets/images/alberto.png"
+            src={leader.leader.image}
             alt={leader.leader.name}
-            height="80px"
-            width="80px"
-          />
+            height="100px"
+            width="100px"
+            />
         </Media>
         <Media body className="ml-5">
           <Media heading>{leader.leader.name}</Media>

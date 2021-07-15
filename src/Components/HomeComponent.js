@@ -13,7 +13,7 @@ function RenderCard({ item }) {
     <Card >
       <CardImg style={{ width: "100%", height: "400px" }} src={item.image} alt={item.name} />
       <CardBody>
-        <CardTitle>{item.name}</CardTitle>
+        <CardTitle className="card-title">{item.name}</CardTitle>
         {item.designation ? (
           <CardSubtitle>{item.designation}</CardSubtitle>
         ) : null}

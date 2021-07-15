@@ -18,8 +18,8 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #1687A7 ;
     color:floralwhite;
+    background-color:#1687A7;
 }
 
 address{
@@ -40,6 +40,9 @@ address{
     height: 500px;
 }
 
+.card-title{
+    font-weight: 600;
+}
 .breadcrumb{
     background-color: #ddd;
     padding: 5px;
@@ -54,16 +57,11 @@ address{
     margin-top: 5px;
 }
 
-.media-list{
-    list-style: none;
-}
+
 
 .media{
     display: flex;
-}
-
-.media-left{
-    display: inline;
+    margin: 10px;
 }
 
 .media-body{
@@ -74,3 +72,7 @@ address{
 .media-heading{
     margin: 0px;
 }
+
+/*
+#1687A7 
+*/

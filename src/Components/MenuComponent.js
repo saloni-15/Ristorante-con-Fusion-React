@@ -11,16 +11,17 @@ import { Link } from "react-router-dom";
 
 function RenderMenuItem({ dish, onClick }) {
   return (
-    <Card>
+    <Card className="card">
       <Link to={`/menu/${dish.id}`}>
         <CardImg
+          className="card-img"
           style={{ width: "100%", height: "400px" }}
           src={dish.image}
           alt={dish.name}
         />
-        <CardImgOverlay>
-          <CardTitle>
-            <strong>{dish.name}</strong>
+        <CardImgOverlay className="card-img">
+          <CardTitle className="card-title">
+            <h4>{dish.name}</h4>
           </CardTitle>
         </CardImgOverlay>
       </Link>
